@@ -1,6 +1,6 @@
 class StoreAdminController < ApplicationController
   def home
-    render :layout => "store_admin#home"
+    render :layout => "home"
   end
 
   def orders
